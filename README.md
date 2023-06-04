@@ -181,4 +181,4 @@ return (0);
 
 
 ## Result:
-The program prints the device information, matrix size, and the execution time for matrix initialization, matrix addition on the host, matrix addition on the device, and memory transfer. Finally, the program prints whether the results from the host and the device match or not. The output of the program provides insights into the performance of matrix addition on the host and the device, which can be used for further optimization. Here, the performance indicates that the performance is slightly better when float values are used. Thus, float variables can be opted for better performance.
+Thus the program to perform PCA matrix summation with a 2D grid and 2D blocks and adapting it to integer matrix addition has been successfully executed.
