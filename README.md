@@ -21,8 +21,10 @@ To perform PCA matrix summation with a 2D grid and 2D blocks and adapting it to 
 8.Save and Run the Program.
 
 ## Program:
-
-#include "common.h" #include <cuda_runtime.h> #include <stdio.h>
+```cuda c
+#include "common.h"
+#include <cuda_runtime.h>
+#include <stdio.h>
 
 /*
 
@@ -31,7 +33,7 @@ sumArraysOnGPU splits the work of the vector sum across CUDA threads on the
 GPU. A 2D thread block and 2D grid are used. sumArraysOnHost sequentially
 iterates through vector elements on the host. */
 
-```python3
+
 void initialData(int *ip, const int size) { int i;
 
 for(i = 0; i < size; i++)
